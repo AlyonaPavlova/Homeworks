@@ -1,0 +1,146 @@
+.information {
+    position: absolute;
+    top: 220px;
+    right: 170px;
+    width: 420px;
+    font-family: Lato;
+    font-size: 13px;
+}
+
+.photo {
+    position: absolute;
+    top: 220px;
+    left: 170px;
+    width: 750px;
+}
+
+.photo__mini {
+    padding: 10px;
+}
+
+.options  {
+    display: inline-flex;
+}
+
+.options__color  {
+    margin-right: 150px;
+}
+
+.options__size  {
+    margin-right: 150px;
+}
+
+.header {
+    display:flex;
+    padding: 10px;
+    font-family: Lato;
+}
+
+#select-currency {
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    margin-left: 130px;
+}
+
+#h1 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-right: 320px;
+    margin-left: 310px;
+    font-family: "Arial Black";
+}
+
+#button-cart {
+    width: 120px;
+    height: 40px;
+    border: 2px solid palevioletred;
+    background-color: white;
+}
+
+.navigation {
+    font-weight: bold;
+    font-size: small;
+    font-family: Lato;
+}
+
+.fa-bars {
+    margin-left: 140px;
+    margin-right: 150px;
+}
+
+.fa-facebook-square {
+    margin-right: 0.2cm;
+}
+
+.fa-twitter {
+    color: dodgerblue;
+    margin-right: 0.1cm;
+}
+
+.fa-pinterest-p {
+    color: red;
+}
+
+#button-add-cart {
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    font-family: Lato;
+    font-size: 12px;
+    margin-right: 0.3cm;
+}
+
+#button-add-wishlist {
+    width: 200px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    border: 2px solid darkgray;
+    font-family: Lato;
+    font-size: 12px;
+}
+
+#top-heart {
+    margin-left: 150px;
+}
+
+#bot-facebook {
+    width: 60px;
+    background-color: darkblue;
+    color: ghostwhite;
+    border: none;
+}
+
+#bot-share {
+    width: 60px;
+    background-color: #19398b;
+    color: ghostwhite;
+    border: none;
+    margin-right: 0.5cm;
+}
+
+#bot-tweet {
+    color: gray;
+    margin-right: 0.6cm;
+}
+
+#select-men {
+    border: 0px;
+    font-weight: bold;
+    font-size: small;
+    font-family: Lato;
+    margin-right: 1.2cm;
+    width: 60px;
+}
+
+#select-women {
+    border: 0px;
+    font-weight: bold;
+    font-size: small;
+    font-family: Lato;
+    margin-right: 1.2cm;
+    width: 85px;
+}
