@@ -1,0 +1,165 @@
+.wrapper {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+}
+.wrapper:after {
+    padding-top: 42.85714285714287%;
+    display: block;
+    content: '';
+}
+.wrapper .column {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 14.2857142857142857%;
+    float: left;
+    padding: 6px;
+    box-sizing: border-box;
+}
+.wrapper .column .inner {
+    width: 100%;
+    position: relative;
+}
+.wrapper .column .inner:after {
+    padding-top: 100%;
+    /* ratio 1:1 */
+    display: block;
+    content: '';
+}
+.wrapper .column .inner:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transition: 300ms ease-in-out;
+    transition: 300ms ease-in-out;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.wrapper .column .inner:hover:before {
+    background-color: rgba(0, 0, 0, 0);
+}
+.wrapper .column:nth-child(1) {
+    width: 28.5714285714285714%;
+}
+.wrapper .column:nth-child(2) {
+    left: 28.5714285714285714%;
+}
+.wrapper .column:nth-child(3) {
+    left: 28.5714285714285714%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.wrapper .column:nth-child(4) {
+    width: 28.5714285714285714%;
+    left: 42.85714285714286%;
+    top: 0;
+}
+.wrapper .column:nth-child(4) .inner:after {
+    padding-top: 48.7%;
+}
+.wrapper .column:nth-child(5) {
+    left: 71.42857142857143%;
+    top: 0;
+}
+.wrapper .column:nth-child(6) {
+    left: auto;
+    right: 0;
+    top: 0;
+}
+.wrapper .column:nth-child(7) {
+    left: 71.42857142857143%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.wrapper .column:nth-child(8) {
+    left: auto;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.wrapper .column:nth-child(9) {
+    width: 28.5714285714285714%;
+    top: auto;
+    left: 0;
+    bottom: 0;
+}
+.wrapper .column:nth-child(9) .inner:after {
+    padding-top: 48.7%;
+}
+.wrapper .column:nth-child(10) {
+    left: 28.5714285714285714%;
+    top: auto;
+    bottom: 0;
+}
+.wrapper .column:nth-child(11) {
+    left: 42.85714285714286%;
+    top: auto;
+    bottom: 0;
+    width: 28.5714285714285714%;
+}
+.wrapper .column:nth-child(12) {
+    left: auto;
+    top: auto;
+    bottom: 0;
+    right: 0;
+    width: 28.5714285714285714%;
+}
+.wrapper .column:nth-child(12) .inner:after {
+    padding-top: 48.7%;
+}
+/* BEAUTY */
+body,
+html {
+    background-color: #fff;
+    padding: 0;
+}
+.wrapper .column .inner {
+    background-size: cover;
+    background-position: center;
+}
+.wrapper .column:nth-child(1) .inner {
+    background-image: url('http://wallpapercave.com/wp/OWm0lKm.jpg');
+}
+.wrapper .column:nth-child(2) .inner {
+    background-image: url('http://wallpapercave.com/wp/9dkegvx.jpg');
+}
+.wrapper .column:nth-child(3) .inner {
+    background-image: url('http://cdn.wallpapersafari.com/39/64/eszvJY.jpg');
+}
+.wrapper .column:nth-child(6) .inner {
+    background-image: url('https://cdn5.img.ria.ru/images/148839/96/1488399690.jpg');
+}
+.wrapper .column:nth-child(5) .inner {
+    background-image: url('https://s-media-cache-ak0.pinimg.com/736x/86/a2/82/86a282f4e653c4bc0b90af4302330310--animals-images-funny-animals.jpg');
+}
+.wrapper .column:nth-child(4) .inner {
+    background-image: url('https://photobest1.com/wp-content/uploads/2017/03/lovely-cute-Cat-funny-background-wallpaper-hd-04.jpg');
+}
+.wrapper .column:nth-child(7) .inner {
+    background-image: url('http://4.bp.blogspot.com/-Yh1KVobRARI/U5gnegV_O2I/AAAAAAAAGSk/Gar875PoXKk/s1600/kedi-resmi.jpg');
+}
+.wrapper .column:nth-child(8) .inner {
+    background-image: url('http://3.bp.blogspot.com/-uaB3d7zMrhk/T_fMFzKwT_I/AAAAAAAAEJc/4HIVOjO3cqM/s1600/Funny+Cats+Hd+Wallpapers_3.jpg');
+}
+.wrapper .column:nth-child(9) .inner {
+    background-image: url('http://cdn.wallpapersafari.com/17/86/CN3HcO.jpg');
+}
+.wrapper .column:nth-child(10) .inner {
+    background-image: url('https://cdn.suwalls.com/wallpapers/animals/funny-cat-34174-1920x1200.jpg');
+}
+.wrapper .column:nth-child(11) .inner {
+    background-image: url('http://www.freedwallpapers.com/wp-content/uploads/2017/04/cat-wallpapers-android.jpg');
+}
+.wrapper .column:nth-child(12) .inner {
+    background-image: url('http://4.bp.blogspot.com/-ejFLkFvd-VI/TtfMVc1RvyI/AAAAAAAABts/FhRFSHiiVZ4/s1600/Cat%2BMac%2BHD%2BWallpapers%2BSmile%2BWith%2BConfidence%25281%2529.jpeg');
+}
+.wrapper .column:nth-child(13) .inner {
+    background-image: url('http://images.picstatio.com/u/jlzeox/small_astronaut-cat-wallpaper.jpg');
+}
